@@ -1,0 +1,25 @@
+#! /c/Source/iverilog-install/bin/vvp
+:ivl_version "12.0 (devel)" "(s20150603-1110-g18392a46)";
+:ivl_delay_selection "TYPICAL";
+:vpi_time_precision + 0;
+:vpi_module "D:\Programs\iverilog\lib\ivl\system.vpi";
+:vpi_module "D:\Programs\iverilog\lib\ivl\vhdl_sys.vpi";
+:vpi_module "D:\Programs\iverilog\lib\ivl\vhdl_textio.vpi";
+:vpi_module "D:\Programs\iverilog\lib\ivl\v2005_math.vpi";
+:vpi_module "D:\Programs\iverilog\lib\ivl\va_math.vpi";
+S_0000027ca6872be0 .scope module, "top_module" "top_module" 2 4;
+ .timescale 0 0;
+    .port_info 0 /INPUT 16 "in";
+    .port_info 1 /OUTPUT 8 "out_hi";
+    .port_info 2 /OUTPUT 8 "out_lo";
+o0000027ca68a6fd8 .functor BUFZ 16, C4<zzzzzzzzzzzzzzzz>; HiZ drive
+v0000027ca68a52c0_0 .net "in", 15 0, o0000027ca68a6fd8;  0 drivers
+v0000027ca68a6cd0_0 .net "out_hi", 7 0, L_0000027ca6872e10;  1 drivers
+v0000027ca6872d70_0 .net "out_lo", 7 0, L_0000027ca6872eb0;  1 drivers
+L_0000027ca6872e10 .part o0000027ca68a6fd8, 8, 8;
+L_0000027ca6872eb0 .part o0000027ca68a6fd8, 0, 8;
+# The file index is used to find the file name in the following table.
+:file_names 3;
+    "N/A";
+    "<interactive>";
+    "01_vector1.v";
