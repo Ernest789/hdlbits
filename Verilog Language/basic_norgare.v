@@ -5,6 +5,6 @@ module top_module(
     input b, 
     output out );
     
-    assign out = ~(a|b);  //异或运算符^
+    assign out = ~(a|b);  //异或运算符 ^ ,在hdlbits网站上使用^时波形mismatch，原因未知
 
 endmodule
